@@ -10,7 +10,7 @@ Convert static NATS pre 8.2 into current format
 positional arguments:
   file        file of nats
 
-optional arguments:\n
+optional arguments:
   -h, --help  show this help message and exit
   --dns       Do DNS lookup for description
 ```
