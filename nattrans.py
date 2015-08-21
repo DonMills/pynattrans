@@ -2,7 +2,7 @@ import string
 import socket
 import argparse
 
-parser = argparse.ArgumentParser(description='Convert static NATS pre 8.2 into current format')
+parser = argparse.ArgumentParser(description='Convert static NATS pre 8.3 into current format')
 parser.add_argument('file', help='file of nats',type=file)
 parser.add_argument('--dns', help='Do DNS lookup for description',action='store_true')
 
